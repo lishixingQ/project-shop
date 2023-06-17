@@ -1,0 +1,47 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1136px;
+}
+
+.el-breadcrumb {
+    font-size: 12px;
+    margin-bottom: 15px;
+
+    .el-breadcrumb__inner {
+        color: white !important;
+    }
+
+}
+
+.el-table,
+.el-pagination {
+    margin-top: 15px;
+}
+
+.el-table {
+    font-size: 12px;
+}
+
+.el-cascader-menu {
+    height: 200px;
+}
+
+.el-table__expanded-cell[class*=cell] {
+    padding: 20px 50px !important;
+}
+
+.el-steps {
+    margin: 10px;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+.ql-editor {
+    min-height: 300px;
+}
